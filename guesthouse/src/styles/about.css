@@ -1,0 +1,105 @@
+.about-us {
+    padding: 20px 10px; 
+    background-color: hwb(330 95% 5%);
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 2em; 
+    margin-bottom: 15px; 
+    color: #0b1f9e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    border-bottom: 3px solid #ddd;
+    display: inline-block;
+    padding-bottom: 8px;  
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;  
+    flex-wrap: wrap;
+    max-width: 1000px;  
+    margin: 0 auto;
+  }
+  
+  .left-section {
+    flex: 1 1 35%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Reducesgap */
+  }
+  
+  .image-container {
+    width: 100%;
+    text-align: center;
+    margin-left: -40%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-section {
+    flex: 1 1 55%; 
+    max-width: 500px; 
+    font-size:large; 
+    color: #230652;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;   
+    
+    
+  }
+  
+  .stat-box {
+    background-color:white ;
+    padding: 15px;  
+    text-align: center;
+    border: 5px solid rgb(33, 1, 36);
+    border-radius: 20px rgb(59, 4, 59);
+    flex: 1;
+    margin: 0 5px;
+    animation: blink 1s infinite;
+  }
+  
+  .stat-box h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1em; 
+    color: #0d10be;
+  }
+  
+  .stat-box p {
+    margin: 8px 0 0; 
+    text-align: center;
+    font-size: 1.2em; 
+    color: #333;
+  }
+  
+  .highlight {
+    color: #402E7A; 
+    font-weight: bold;
+    font-size: larger;
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  

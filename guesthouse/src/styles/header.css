@@ -1,0 +1,94 @@
+.header {
+  background-image: url('../images/background.jpg');
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: #fff; /* White text color */
+  height: 100vh; /* Ensures the header takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  text-align: center;
+  position: relative; /* Ensures the header is positioned relative to its parent */
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px 0; /* Adjusted padding for a sleeker look */
+  position: absolute; /* Positions the navbar at the top */
+  top: 0;
+  left: 0;
+  display: flex;
+  font-size: 20px;
+  margin-top: 25px;
+  justify-content: center; /* Centers the navbar items */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 30px; 
+}
+
+.nav-item a {
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px 15px; 
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #FFC107; 
+}
+
+.header-content {
+  margin-top: 60px;   
+  max-width: 800px; 
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  margin-top: 20%;
+  margin-top: 10%;
+  color: #5BBCFF; 
+}
+
+.welcome-text {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 30px;
+  margin-top: 12%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #EBF400; 
+}
+
+.book-now-button {
+  background-color: #e4339a; 
+  color: #f0eaee; 
+  padding: 15px 30px;
+  border: none;
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 15%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: blink 1s infinite;
+}
+
+.book-now-button:hover {
+  background-color: #E64A19; 
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
